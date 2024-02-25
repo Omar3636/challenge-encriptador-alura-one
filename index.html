@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="cascadas.css" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img src="imagenes/Logoa.jpg" alt="logo-alura" class="logo">
+        </header>
+        <main>
+            <div class="cajatexto">
+                <textarea name="recibetexto" id="recibe-texto" cols="35" rows="7" placeholder="Ingresa el texto aquí."></textarea>
+            </div>
+            
+            <section class="cajaderecha">
+                <textarea name="textoencript" id="texto-encript" cols="20" rows="16" style="display: none;"></textarea>
+                <img src="imagenes/Muneco.jpg" alt="logo_" id="munecote">
+                <div class="textos-de-caja">
+                    <h1 class="titulouno" id="encabezado">Ningún mensaje fue encontrado.</h1>
+                    <p class="parrafouno" id="parrafo-uno">Ingresa el texto que quieres encriptar o desencriptar.</p>
+                    <button  onclick="copiarTexto()" id="boton-copiar" style="display: none;">Copiar</button>
+                </div>
+            </section>
+
+            <div class="exclamaciondiv">
+                <i class="mensaje-exclamacion">&#10071;Solo letras minúsculas y sin acentos.</i>
+            </div>
+            
+            <div class="botones">
+                <button id="botonencript">Encriptar</button>
+                <button id="botondesencript">Desencriptar</button>
+            </div>
+            
+        </main>
+
+        <footer>
+            <div class="referencia">
+                <p>Elaborado por: Omar Mendoza</p>     
+                <p>Correo: yairmnenaz92@gmail.com</p>
+            </div>
+        </footer>
+        <script src="javascript.js"></script>
+
+    </body>
+    
+</html>
