@@ -23,6 +23,7 @@ body{
     color: #0A3871;
     line-height: 48px;
     border: none;
+    resize: none;
     background-color:#F3F5FC;
 }
 
@@ -147,6 +148,106 @@ textarea {
     font-size: 12px;
 }
 
-@media only screen and (max-width : 900px) {
-    //sin adaptatividad por el momento.
+@media only screen and (max-width : 1000px) {
+
+    .logo{
+        position: fixed;
+        width: 120px;
+        height: 48px;
+        top: 2vw;
+        left: 19vh;
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
+    }
+    
+    .cajatexto{
+        position: fixed;
+        top: 7vh;
+        left: 1vw;
+        width: 99vw;
+        height: 23vh;
+    }
+    
+    #recibe-texto{
+        color: #0A3871;
+        line-height: 48px;
+        border: none;
+        background-color:#F3F5FC;
+        width: 99vw;
+        height: 23vh;
+    }
+
+    .cajaderecha{
+        background-color: white;
+        width: 90vw;
+        height: 25vh;
+        border-radius: 32px;
+        top: 37vh;
+        left: 1vw;
+        bottom: 5vh;
+        position: fixed;
+    }
+
+    #munecote{
+        position: fixed;
+        width: 336px;
+        height: 304px;
+        top: 48vh;
+        left: 30vw;
+    }
+    
+    .botones{
+        position: fixed;
+        top: 33vh;
+        left: 14vw;
+    }
+
+    .exclamaciondiv{
+        position: fixed;
+        top: 32vh;
+        left: 14vw;
+    }
+
+    .textos-de-caja{
+        position: fixed;
+        top: 40vh;
+        left: 30vw
+    }
+
+    .referencia{
+        width: 97vw;
+        height: 4vh;
+        position: fixed;
+        top: 97vh;
+        background-color: #0A3871;
+        text-align: center;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        padding: 1em;
+        
+    }
+
+    #texto-encript{
+        width: 90vw;
+        height: 24vh;
+        border: none;
+    }
+
+    #boton-copiar{
+        position: fixed;
+        top: 64vh;
+        left: 17vw;
+        width: 140px;
+        height: 60px;
+        padding: 10px;
+        font-size: 18px;
+        text-align: center;
+        transition: 1s;
+        color: #0A3871;
+    }
+    
+    #boton-copiar:hover{
+        scale: 1.1;
+    }
+
     }
