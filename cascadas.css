@@ -148,6 +148,16 @@ textarea {
     font-size: 12px;
 }
 
+.iconos{
+    max-width: 40px;
+    max-height: 40px;
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    left: 12vw;
+}
+
 @media only screen and (max-width : 1000px) {
 
     .logo{
@@ -248,6 +258,16 @@ textarea {
     
     #boton-copiar:hover{
         scale: 1.1;
+    }
+
+    .iconos{
+        max-width: 40px;
+        max-height: 40px;
+        margin: 5px;
+        display: inline-block;
+        position: relative;
+        bottom: 40px;
+        left: 17vw;
     }
 
     }
