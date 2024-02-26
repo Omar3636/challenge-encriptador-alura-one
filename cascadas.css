@@ -5,16 +5,18 @@ body{
 
 .logo{
     position: fixed;
-    top: 40px;
-    left: 40px;
+    width: 120px;
+    height: 48px;
+    top: 2vw;
+    left: 2vh;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
 }
 
 .cajatexto{
     position: fixed;
-    top: 168px;
-    left: 240px;
+    top: 20vh;
+    left: 12vw;
 }
 
 #recibe-texto{
@@ -31,41 +33,47 @@ textarea {
 
 .cajaderecha{
     background-color: white;
-    width: 400px;
-    height: 90%;
+    width: 25vw;
+    height: 85vh;
     border-radius: 32px;
-    top: 40px;
-    left: 75%;
+    top: 5vh;
+    left: 70vw;
+    bottom: 5vh;
     position: fixed;
     padding: 30px 30px 0px 30px;
 }
 
 .textos-de-caja{
     position: fixed;
-    top: 65%;
+    top: 69vh;
 }
 
 #munecote{
     position: fixed;
-    top: 283px;
-    left: 77%;
+    width: 336px;
+    height: 304px;
+    top: 15vh;
+    left: 72vw;
 }
 
 .titulouno{
     text-align: center;
     line-height: 28.8px;
+    font-size: 24px;
+    font-weight: bold;
 
 }
 
 .parrafouno{
     text-align: center;
     line-height: 24px;
+    font-size: 16px;
 }
 
 #boton-copiar{
     position: fixed;
-    top: 78%;
-    left: 77%;
+    top: 78vh;
+    left: 73vw;
     width: 100px;
     height: 46px;
     padding: 10px;
@@ -81,14 +89,14 @@ textarea {
 
 .botones{
     position: fixed;
-    top: 80%;
-    left: 220px;
+    top: 80vh;
+    left: 12vw;
 }
 
 .exclamaciondiv{
     position: fixed;
-    top: 77%;
-    left: 12%;
+    top: 77vh;
+    left: 12vw;
 }
 
 #botonencript{
@@ -122,18 +130,21 @@ textarea {
 }
 
 .referencia{
-    width: 60%;
-    height: 80px;
+    width: 62.5vw;
+    height: 4vh;
     position: fixed;
-    top: 90%;
+    top: 92vh;
     background-color: #0A3871;
     text-align: center;
-    border-radius: 24px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    padding: 1em;
     
 }
 
 .referencia p{
     color: white;
+    font-size: 12px;
 }
 
 @media only screen and (max-width : 900px) {
